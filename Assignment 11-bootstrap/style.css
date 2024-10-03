@@ -1,0 +1,448 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar upper line code start */
+
+.upperLine {
+  background-color: orange;
+}
+
+.header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 25px;
+}
+
+p {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+
+
+/* Navbar upper line End */
+
+/* content start */
+
+.parentDiv {
+  background: url("saylani.jpeg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 580px;
+  overflow: hidden;
+  width: auto;
+  height: 700px;
+}
+
+/* respnsiveness for parent-div */
+
+@media (max-width: 768px) {
+  .parentDiv {
+    background: none;
+
+    background-color: blueviolet;
+    width: 100%;
+  }
+
+  .upperLine {
+    display: none;
+  }
+
+  .logoNav {
+    position: fixed;
+    background-color: blueviolet;
+    z-index: 1;
+    overflow: hidden;
+
+
+  }
+
+  .logo {
+    margin: 1px;
+    padding: 1px;
+  }
+
+
+  .men-menu {
+    display: none;
+  }
+
+
+
+  
+
+  .sectionInputH {
+    color: white;
+  }
+
+  .sectionInputP {
+    color: white;
+  }
+
+  .input_button {
+    border-radius: 2px solid rgb(149, 34, 34);
+    background-color: white;
+  }
+
+  .webIcons {
+    padding: 5px;
+  }
+
+  .aboutContent {
+    flex-direction: column-reverse;
+  }
+
+  .webContent {
+    flex-direction: column-reverse;
+  }
+  
+  .google-My-Business-SEO-Content{
+    flex-direction: column;  
+  }
+  
+  .localSeoContent{
+    flex-direction: column-reverse;
+  }
+
+  .googleAdsContent{
+    flex-direction: column-reverse;
+
+  }
+
+  .socail-media-marketting-page-Content{
+    flex-direction: column;
+  }
+}
+
+/* ####-mediaquiri end-###### */
+
+.logo {
+  margin: 20px;
+  margin-right: 10px;
+  width: 140px;
+  height: 90px;
+}
+
+.men-menu {
+  display: flex;
+  list-style: none;
+  justify-content: start;
+  align-items: end;
+}
+
+li {
+  margin-left: 15px;
+  margin-top: 50px;
+  font-size: large;
+  font-weight: 500;
+}
+
+.AboutUs {
+
+  text-decoration: none;
+  color: black;
+}
+
+.Services {
+  padding: 8px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.contactUs {
+  text-decoration: none;
+  color: black;
+}
+
+.freeproposal {
+  padding: 8px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+
+/* Navbar Code End */
+
+/* Section Input Code */
+
+.sectionInput {
+  width: 500px;
+  color: blueviolet;
+  margin-top: 80px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.input_button {
+  border: 2px blueviolet solid;
+  border-radius: 4px;
+  width: 400px;
+  justify-content: space-between;
+}
+
+.sectionInputInput {
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+.btn {
+  border: 2px white solid;
+  background-color: blueviolet;
+  color: white;
+  font-weight: 400;
+  margin-left: 120px;
+}
+
+/* ###-WEB ICONS-#### */
+
+.webIcons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  padding: 15px;
+
+}
+
+
+.web-img {
+  width: 200px;
+
+}
+
+/* #####-Web icons end -#### */
+
+/* the cards code */
+
+.cardsContainer {
+  background-color: rgb(240, 225, 255);
+}
+
+.headerCardsRow {
+
+  color: blueviolet;
+  font-weight: 1000;
+  padding-top: 5px;
+  margin-top: 80px;
+}
+
+.card-title {
+  color: blueviolet;
+}
+
+.card-text {
+  color: blueviolet;
+}
+
+.card-4 {
+  margin-left: 150px;
+}
+
+
+.row-img {
+  width: 70px;
+  margin: 0 40%;
+}
+
+
+/* #######-Cards Code End-####### */
+
+
+/* ##########-ABOUT PAGE-########### */
+
+.aboutPageHeading {
+  color: blueviolet;
+  font-weight: 700;
+  padding-top: 5px;
+  margin-top: 80px;
+}
+
+.aboutDesignButton {
+  background-color: blueviolet;
+  color: white;
+  margin-left: 32px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 150px;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  font-size: larger;
+
+}
+
+
+/* ##########-ABOUT PAGE  END-########### */
+
+.webDesignPageHeading {
+  color: blueviolet;
+  font-weight: 700;
+  padding: 15px;
+  margin-top: 80px;
+}
+
+
+
+.webdesignButton {
+  background-color: blueviolet;
+  color: white;
+  margin-left: 32px;
+  margin-top: 10px;
+  width: 150px;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  font-size: larger;
+}
+
+/* ##########-WEG DESIGN  PAGE-########### */
+
+.webDesignPage {
+  background-color: rgb(240, 225, 255);
+}
+
+
+/* ###GOOGLE MY BUSSNIISS SEO PAGE ### */
+
+.googleSeoButton{
+  background-color: blueviolet;
+  color: white;
+  margin-left: 32px;
+  margin-top: 10px;
+  margin-bottom: ;
+  width: 150px;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  font-size: larger;
+}
+
+/* ###GOOGLE MY BUSSNIISS SEO PAGE END ### */
+
+/* ####-LOCAL SEO PAGE-######## */
+
+.local-seo-page{
+  background-color: rgb(240, 225, 255);
+}
+
+.local-seo-page-button{
+
+  background-color: blueviolet;
+  color: white;
+  margin-left: 32px;
+  margin-top: 10px;
+  margin-bottom: 30PX ;
+  width: 150px;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  font-size: larger;
+
+}
+
+/* ####-LOCAL SEO PAGE END- */
+
+/* #######-GOOGLE ADS PAGE START-###### */
+  
+.google-ads-page-button{
+  background-color: blueviolet;
+  color: white;
+  margin-left: 32px;
+  margin-top: 10px;
+  width: 150px;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  font-size: larger;
+}
+
+/* #######-GOOGLE ADS PAGE END-###### */
+
+/* #####-SOCIAL MEDIA MARKETTING PAGE START-##### */
+
+.socail-media-marketting-page{
+  background-color: rgb(240, 225, 255);
+}
+.Socail-media-marketing-page-button{
+  background-color: blueviolet;
+  color: white;
+  margin-left: 32px;
+  margin-top: 10px;
+  width: 150px;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  font-size: larger;
+}
+
+
+/* #####-SOCIAL MEDIA MARKETTING PAGE END-##### */
+
+
+/* #####-FREQUENTLY ASK QUESTION SECTION START-##### */
+
+ .frequently-Ask-Question-page{
+  background-color: rgb(240, 225, 255);
+}
+
+/* #####-FREQUENTLY ASK QUESTION SECTION END-##### */
+
+/* ######-GOOGLE MAPS START##### */
+
+
+/* ######-GOOGLE MAPS START##### */
+
+
+
+/* ########- FOOter start -######### */
+.main-footer-form{
+  background-color: rgb(114, 22, 206);
+  border: 2px solid rgb(114, 22, 206);
+  border-radius: 50px;
+}
+
+.text-dec{
+  text-decoration: none;
+  color: white;
+}
+
+.dec{
+  text-decoration: none;
+  color: white; 
+}
+
+.main-footer-form-content{
+  
+}
+
+.form_input{
+  font-size: larger;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 10px;
+  
+}
+
+.form-submit-button{
+  width: 40%;
+  height: 40%;
+  color: white;
+  background-color: rgb(86, 3, 170);
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+
+/* ####-FOOTER CODE END-###### */
